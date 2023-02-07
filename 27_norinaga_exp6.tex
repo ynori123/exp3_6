@@ -1,0 +1,156 @@
+\documentclass[uplatex,dvipdfmx,12pt]{jsarticle}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage[dvipdfmx]{graphicx}
+
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{here}
+\geometry{left=20mm,right=20mm,top=20mm,bottom=30mm}
+\renewcommand{\baselinestretch}{1.2}
+\usepackage{multicol}
+\usepackage{listings,jlisting}
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+\renewcommand{\lstlistingname}{コマンド}
+\makeatletter
+\newcommand{\subsubsubsection}{\@startsection{paragraph}{4}{\z@}%
+  {1.0\Cvs \@plus.5\Cdp \@minus.2\Cdp}%
+  {.1\Cvs \@plus.3\Cdp}%
+  {\reset@font\sffamily\normalsize}
+}
+\makeatother
+\setcounter{secnumdepth}{4}
+\begin{document}
+\begin{titlepage}
+\begin{center}
+\begin{huge}
+情報工学実験Ⅱ 第6回レポート \\ \vspace{1em}
+スクリプト言語を用いた\\テキストファイル処理に関する実験
+\end{huge}
+\end{center}
+\vspace{3em}
+\begin{flushright}
+\begin{LARGE}
+\thispagestyle{empty}
+3年 情報工学科 27番  則永 悠仁\\ \vspace{1em}
+
+\end{LARGE}
+\end{flushright}
+
+\vspace{6em}
+
+\begin{Large}
+\begin{tabular}{ll}
+提出期限： & 2023年2月13日（月） 9:00 \\
+提出日： & 2023年2月13日 (月）
+\end{tabular}
+\vspace{2em}
+
+共同実験者： 6班
+
+\vspace{1em}
+\begin{tabular}{ll}
+9番 & 栫 心之介 \\
+10番 & 片岡 春陽 \\
+18番 & 竹田 時英\\
+27番 & 則永 悠仁 \\
+29番 & 藤村 空翔 \\
+39番 & 由井 陽都 \\
+\end{tabular}
+\end{Large}
+\end{titlepage}
+
+\newpage
+\section*{アブストラクト}
+
+\newpage
+\section{目的}
+本実験ではスクリプト言語であるPythonを用いてプログラムを作成し実験を実施する．その過程を通して，データ整理，データ加工，テキストファイルの処理の技術を身に付ける．また，Pythonの長所を理解することを目的とする．
+
+\newpage
+\section{実験原理}
+本章では，本実験で用いた原理について説明する．
+
+\newpage
+\section{実験環境}
+本実験では，持ち込みのノートパソコン(Windows11)を用いてプログラムの作成を行った．
+テキストエディタはVisual Studio Codeを利用し，Pythonのバージョンは3.10.9を用いた．
+したがって，本レポートではPython3系の文法でコードを書くこととする．
+
+\newpage
+\section{実験課題}\label{sec:kadai}
+本章では，実験課題について説明する．
+\subsection{スクリプトプログラミングの学習}
+以下のPythonのサンプルスクリプト(sample.py)を入力し，以下の動作を確認する．
+
+%ソースコード
+\begin{lstlisting}
+
+\end{lstlisting}
+\subsection{インデントと基本構文の習得}
+以下に示す条件を満たす九九の表を表示するプログラムの作成を行う．
+\begin{enumerate}
+\item 横線'-'は半角のハイフン（マイナス）を使うこと．
+\item 縦線'|'は半角のパイプ記号を使うこと．
+\item 交差点'+'は半角のプラスを使うこと．
+\end{enumerate}
+
+
+
+\subsection{基本構文と標準入力の習得}
+本節では，日数計算をするプログラムを作成する．
+出力例は以下のとおりである．
+
+\begin{lstlisting}[caption={日数計算プログラムの出力例},label=dayPro]
+開始日(YYYY/MM/DD)： 2015/08/07
+終了日(YYYY/MM/DD)： 2020/07/24
+日数差： 1813日
+\end{lstlisting}
+
+\subsection{基本構文とファイル操作の習得}
+
+\subsection{基本構文とコマンドライン引数の習得}
+
+\subsection{総合課題}
+\newpage
+\section{実験結果}
+本章では，\ref{sec:kadai}章にて説明した実験課題を行い得られた結果について述べる．
+
+
+
+\newpage
+
+\section{検討課題}
+本章では，検討課題について述べる．
+
+
+
+\newpage
+\section{まとめ}
+
+%CSIRTの業務について理解する．
+\newpage
+\begin{thebibliography}{99}
+
+\end{thebibliography}
+
+
+\end{document}
