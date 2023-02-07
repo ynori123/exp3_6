@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1675787979 "27_norinaga_exp6.dvi" "27_norinaga_exp6.pdf" "27_norinaga_exp6" 1675787980
-  "27_norinaga_exp6.dvi" 1675787979 5604 5b7ce298b251fd3febef2b85dd400690 "latex"
+["dvipdf"] 1675794746 "27_norinaga_exp6.dvi" "27_norinaga_exp6.pdf" "27_norinaga_exp6" 1675794747
+  "27_norinaga_exp6.dvi" 1675794746 5604 caafdc59671a132fd5a3b9e4514c7604 "latex"
   (generated)
   "27_norinaga_exp6.pdf"
-["latex"] 1675787978 "27_norinaga_exp6.tex" "27_norinaga_exp6.dvi" "27_norinaga_exp6" 1675787980
-  "27_norinaga_exp6.aux" 1675787979 1692 ea62a2c2c9e3a8dbd1e157b0fbba9033 "latex"
-  "27_norinaga_exp6.tex" 1675784174 4402 1658670fe9a568155fcd4d8ae6cc9396 ""
+["latex"] 1675794745 "27_norinaga_exp6.tex" "27_norinaga_exp6.dvi" "27_norinaga_exp6" 1675794747
+  "27_norinaga_exp6.aux" 1675794746 1692 ea62a2c2c9e3a8dbd1e157b0fbba9033 "latex"
+  "27_norinaga_exp6.tex" 1675794744 4500 95e96139f9c241fe3a6bcc41a236e09b ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1659501901 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1659501252 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1659501528 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
