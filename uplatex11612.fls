@@ -1,0 +1,5 @@
+PWD d:/git/exp3_6
+INPUT c:/texlive/2022/texmf.cnf
+INPUT c:/texlive/2022/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2022/texmf-var/web2c/euptex/uplatex.fmt
+INPUT 27_norinaga_exp6.tex

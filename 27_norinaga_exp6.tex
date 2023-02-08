@@ -109,6 +109,7 @@
   print("Hello World")
   
 \end{lstlisting}
+
 \subsection{インデントと基本構文の習得}
 以下に示す条件を満たす九九の表を表示するプログラムの作成を行う．
 \begin{enumerate}
@@ -116,29 +117,62 @@
   \item 縦線'|'は半角のパイプ記号を使うこと．
   \item 交差点'+'は半角のプラスを使うこと．
 \end{enumerate}
-
-
+また，実行例を以下のソースコード\ref{4_2py}
+\begin{lstlisting}[caption=サンプルプログラムの実行例,label=4_2py]
+  コマンドプロンプト> python k001.py
+| 1 2 3 4 5 6 7 8 9
+---+----------------------------
+1 | 1 2 3 4 5 6 7 8 9
+2 | 2 4 6 8 10 12 14 16 18
+3 | 3 6 9 12 15 18 21 24 27
+4 | 4 8 12 16 20 24 28 32 36
+5 | 5 10 15 20 25 30 35 40 45
+6 | 6 12 18 24 30 36 42 48 54
+7 | 7 14 21 28 35 42 49 56 63
+8 | 8 16 24 32 40 48 56 64 72
+9 | 9 18 27 36 45 54 63 72 81
+コマンドプロンプト>
+\end{lstlisting}
 
 \subsection{基本構文と標準入力の習得}
 本節では，日数計算をするプログラムを作成する．
 出力例は以下のとおりである．
 
 \begin{lstlisting}[caption={日数計算プログラムの出力例},label=dayPro]
-開始日(YYYY/MM/DD)： 2015/08/07
-終了日(YYYY/MM/DD)： 2020/07/24
-日数差： 1813日
+  コマンドプロンプト> python k013.py
+  開始時間（HH:MM）： 16:15
+  終了時間（HH:MM）： 23:30
+  経過時間： 7 時間 15 分
+  コマンドプロンプト>
 \end{lstlisting}
 
 \subsection{基本構文とファイル操作の習得}
+\subsubsection{ソート}
 
 \subsection{基本構文とコマンドライン引数の習得}
+\subsubsection{ファイルの文字数，単語数，行数のカウント}
 
 \subsection{総合課題}
+\subsubsection{アクセスログから特定項目の抽出}
+
+\subsubsection{Python と Excel の連携}
+
+\subsubsection{【発展課題】matplotlib を利用したグラフ作成}
+
+\subsubsection{【発展自主課題】openpyxl}
+
 \newpage
 \section{実験結果}
 本章では，\ref{sec:kadai}章にて説明した実験課題を行い得られた結果について述べる．
+\subsection{スクリプトプログラミングの学習}
+ソースコード\ref{sample}で示したsample.pyを実行した時の結果を以下のソースコード\ref{res_sample}に示す．
 
+\begin{lstlisting}[caption=sample.pyの実行結果, label=res_sample]
+  PS D:\git\exp3_6\source>  & 'C:\Users\ynori\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\ynori\.vscode\extensions\ms-python.python-2023.2.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '50464' '--' 'D:\git\exp3_6\source\sample.py'
+  Hello World
+\end{lstlisting}
 
+以上のソースコード\ref{res_sample}より，print()メソッドにより'Hello World'が出力されたことがわかった．
 
 \newpage
 
